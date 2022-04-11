@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <title>Hello, keys!</title>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Hello, keys!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Story<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tools
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Calculator</a>
+                <a class="dropdown-item" href="#">Calender</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">More</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Earn more money</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <div class="container">
+      <h1>Welcome to Keyboard Fan's land</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Story</a></li>
+          <li class="breadcrumb-item"><a href="#">Keyboard</a></li>
+          <li class="breadcrumb-item active" aria-current="Engineering">
+            2021
+          </li>
+        </ol>
+      </nav>
+      <div class="container">
+        <p class="lead">— My favorite keyboards and their keycaps —</p>
+        <div class="row justify-content-start">
+          <div class="col-4">
+            <figure class="figure">
+              <img
+                src="./img/kbd_02.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">
+                The one i use the most often.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure class="figure">
+              <img
+                src="./img/kbd_05.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">
+                Renewed it and just keeping it.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure class="figure">
+              <img
+                src="./img/kbd_03.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">
+                The most expensive keycaps I have.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure class="figure">
+              <img
+                src="./img/kbd_06.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">Portable and cute.</figcaption>
+            </figure>
+          </div>
+          <div class="col-5">
+            <figure class="figure">
+              <img
+                src="./img/kbd_01.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">
+                Which I loved and I lent it to a friend.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-3">
+            <img
+              src="./img/straw.jpeg"
+              class="figure-img img-fluid rounded"
+              alt="..."
+            />
+            <figcaption class="figure-caption">Some strawberries.</figcaption>
+          </div>
+          <div class="col-6">
+            <figure class="figure">
+              <img
+                src="./img/kbd_04.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">
+                Heaviest. The frame is made by Aluminum alloy. So I make the
+                graph bigger.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6">
+            <figure class="figure">
+              <img
+                src="./img/kbd_07.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">
+                Others. Some are too hard to use.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="close" aria-label="Close">
+        <span aria-hidden="true">&times;Ad</span>
+      </button>
+      <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="./img/head.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Contact me if you are interesting. <del> Just kidding. </del><div class="spinner-border text-primary" role="status">
+  <span class="sr-only">Loading...</span>
+</div><div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+</div>
+                </p>
+                <form class="form-floating">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInputValue"
+                    placeholder="Your@example.com"
+                  />
+                </form>
+                <label>
+                  <input type="checkbox" value="" />
+                  Check to ensure
+                </label>
+                <button type="submit">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-8">
+            <div id="mapid" style="width: 100%; height: 500px"></div>
+            <script>
+              var mymap = L.map("mapid").setView([35.163, 136.9065], 15);
+              L.tileLayer(
+                "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              ).addTo(mymap);
+              var circle = L.circle([35.1645, 136.9065], {
+                color: "blue",
+                fillColor: "#00f",
+                fillOpacity: 0.5,
+                radius: 270,
+              }).addTo(mymap);
+              circle.bindPopup("Somewhere to look for your own keyboard").openPopup();
+
+              var marker = L.marker([35.162, 136.908]).addTo(mymap);
+              marker.bindPopup("Yabacho Station").openPopup();
+              
+            </script>
+          </div>
+        </div>
+      </div>
+      <h2>My keyboard brand lanking</h2>
+      <table class="table table-success table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Ranking</th>
+            <th scope="col">Brand</th>
+            <th scope="col">Reason</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">First choice</th>
+            <td>Varmilo, Dorgod</td>
+            <td>Good price and nice quality.</td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <th scope="row">Second choce</th>
+            <td>Filco, Razer, or DIY</td>
+            <td>You can basicly get what you want.</td>
+          </tr>
+          <tr>
+            <th scope="row">Second choce</th>
+            <td>others like logicool</td>
+            <td>Good price or good quality, only one.</td>
+          </tr>
+          <tr>
+            <th scope="row">Second choce</th>
+            <td>Corsair</td>
+            <td>Too expensive and bad quality, except you want RGB lights.</td>
+          </tr>
+        </tbody>
+      </table>
+      <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
